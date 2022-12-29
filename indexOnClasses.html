@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="d-flex">
+		<div class="player-info-1">
+			<h2>Игрок 1</h2>
+			<img src="dice.png" class="dice1 w-50">
+			<h5>Деньги: <span class="player1_money">1500</span>$</h5>
+			<div class="player1_companies">
+				<p class="companies">Купленные компании: </p>
+				<span class='companies1'></span>
+			</div>
+			<div>
+				<button class='button1' style='display: none'>Купить компанию</button>
+			</div>
+		</div>
+		<div class="content">
+			<img src="player1.png" class="player1" style="top:145px; left:20px;">
+			<img src="player2.png" class="player2" style="top:145px; left:70px;">
+			<!--первая линия-->
+			<div class="boxs top-bottom-side" style="left: 20px; top:145px">
+				<h4>START</h4>
+			</div>
+			<div class="boxs top-bottom-side" style="left: 130px; top:145px">
+				<img src="roztor.png" class="img" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 240px; top:145px">
+				<img src="aigul.png" class="img" alt="">
+			</div>
+			<div class="boxs top-bottom-side"  style="left: 350px; top:145px">3 Общественная казна</div>
+
+			<div class="boxs top-bottom-side" style="left: 460px; top:145px">
+				<img src="hozmarket.png" class="img" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 570px; top:145px">
+				<img src="bershka.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 680px;   top:145px">
+				6
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 790px; top:145px">
+				<img src="zara.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 900px; top:145px">
+				<img src="hm.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 1010px;  top:145px" >
+				<img class="img" src="adidas.png" alt="">
+			</div>
+
+			<!--вторая линия-->
+			<div class="boxs top-bottom-side" style="left: 1120px; top:145px">10
+				<p>иди назад на -5 клеток</p>
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 300px">
+				<img src="burgerking.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 410px">
+				<img src="kfc.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 520px">
+				<img class="img" src="huawei.png" alt="">
+			</div>
+
+			<div class="boxs left-right-side" style="left: 1120px;top: 630px">
+				<img src="mcdonalds.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 740px">
+				<img src="amd.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 850px">
+				<img class="img" src="loreal.png" alt="">
+			</div>
+
+			<div class="boxs left-right-side" style="left: 1120px; top: 960px">
+				<img class="img" src="nike.png" alt="">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 1070px">
+				<img src="intel.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 1180px">
+				<img src="nvidia.svg"  alt="" class="img" >
+			</div>
+
+			<!--третья линия-->
+			<div class="boxs top-bottom-side" style="left: 1120px; top: 1330px; background: red">
+				
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 1010px; top: 1330px">
+				<img class="img" src="mercedes.png" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 900px; top: 1330px">
+				<img src="twitter.png"  alt="" class="img" >
+			</div>
+			<div class="boxs top-bottom-side" style="left: 790px; top: 1330px">
+				<img class="img" src="netflix.png" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 680px; top: 1330px">
+				<img src="microsoft.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 570px; top: 1330px">
+				<img class="img" src="toyota.png" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 460px; top: 1330px">
+				<img src="epicgames.png" alt="" class="img">
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 350px; top: 1330px">
+				<img src="ubisoft.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 240px; top: 1330px">
+				<img class="img" src="valve.png" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 130px; top: 1330px">
+				<img src="blizzard.svg" alt="" class="img">
+			</div>
+
+			<!--четвертая линия-->
+			<div class="boxs top-bottom-side" style="left: 20px; top: 1330px; background: red">
+				
+			</div>
+
+			<div class="boxs left-right-side" style="left: 20px; top: 1180px">
+				<img src="lv.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 1070px">
+				<img src="chanel.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 960px">
+				<img class="img" src="samsung.png" alt="">
+			</div>
+
+			<div class="boxs left-right-side" style="left: 20px; top: 850px">
+				<img src="gucci.png " alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 740px">
+				<img class="img" src="cocacola.png" alt="">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 630px">
+				<img src="amazon.png" alt="" class="img">
+			</div>
+
+			<div class="boxs left-right-side" style="left: 20px; top: 520px">
+				<img class="img" src="apple.png" alt="">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 410px">
+				<img class="img" src="google.png" alt="" style='width: 90px'>
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top:300px">
+				<img class="img" src="spacex.png" alt="">
+			</div>
+		</div>
+		<div class="player-info-2">
+			<h2>Игрок 2</h2>
+			<img src="dice.png" class="dice2 w-50">
+			<h5>Деньги: <span class="player2_money">1500</span>$</h5>
+			<div class="player2_companies">
+				<p class="companies">Купленные компании: </p>
+				<span class='companies2'></span>
+			<div>
+				<button class='button2' style='display: none'>Купить компанию</button>
+			</div>
+		</div>
+		
+	</div>
+
+	<script type="text/javascript">
+		let checkPlayer = 1
+		class Player {
+
+			dice;
+			wallet;
+			figure;
+			button;
+
+			purchComp;
+			money = 1500;
+			step = 0;
+			turn = 0;
+			companies = [];
+			cycle = 0;
+			creditNumber = 3;
+			color;
+
+			playerID;
+			enemyID;
+			enemyName;
+
+			constructor (arg) {
+				this.playerID = arg;
+				if(arg == 1) {
+					this.enemyID = 2;
+					this.color = '#FFCCCB';				
+				} else {
+					this.enemyID = 1;
+					this.color = 'cyan';
+				}
+
+				let self = this;
+
+				this.dice = document.querySelector('.dice' + arg);
+				this.wallet = document.querySelector('.player' + arg + '_money');
+				this.figure = document.querySelector('.player' + arg);
+				this.button = document.querySelector('.button' + arg);
+				this.purchComp = document.querySelector('.companies' + arg);
+
+				this.dice.onclick = function () {
+					if(checkPlayer == arg & self.turn == 0) {
+						if(arg == 2) {
+							this.enemyName = player2
+						} else {
+							this.enemyName = player1
+						}
+						self.step = self.step + self.randomizer(5) + 1				
+						checkPlayer = self.enemyID
+
+						console.log(arg + ', ' + self.step)			
+						
+						if(self.step == 3) {
+							alert('Игрок ' + self.playerID + ' должен заплатить казне')
+							self.money = self.money - 400
+							self.wallet.innerHTML = self.money
+						}
+						if(self.step == 6) {
+							alert('Игрок ' + self.playerID + ' получает государественную поддержку')
+							self.money = self.money + 250
+							self.wallet.innerHTML = self.money
+						}
+						if(self.step == 10) {
+							alert('Игрок ' + self.playerID + ' идет на пять клеток назад')
+							self.step = self.step - 5
+						}
+						if(self.step == 20 || self.step == 30) {
+							alert('Игрок ' + self.playerID + ' попадает в тюрьму')
+							self.turn = 1
+						}
+						if(self.step >= 39) {
+							self.step = 0;
+							self.money = self.money + moneyCycle[self.cycle]
+							self.wallet.innerHTML = self.money
+							self.cycle = self.cycle + 1
+						}
+
+						self.figure.style.left = boxes[self.step].style.left	
+						self.figure.style.top = boxes[self.step].style.top	
+
+						self.checkBuy()
+
+						self.buyCompanies()		
+
+						self.payingTaxes(self.enemyID)			
+
+						self.enemyName.button.style.display = 'none'
+
+						if (self.enemyName.turn == 1) {
+							checkPlayer = arg
+							self.enemyName.turn = 0
+						}
+
+						self.credit()
+
+		 			} else if (checkPlayer == arg & self.turn == 1) {
+		 				checkPlayer = self.enemyID
+		 				alert('Игрок ' + arg + 'ходит первым')
+		 			} else if (checkPlayer != 0) {
+		 				alert('Ход за игроком ' + self.enemyID)
+		 			}
+				}
+
+			}
+			randomizer (arg) {
+				return Math.round(Math.random() * arg)
+			}
+			payingTaxes (arg) {
+				if(arg == 2) {
+					this.enemyName = player2
+				} else {
+					this.enemyName = player1
+				}		
+				for(let i = 0; i <= this.enemyName.companies.length; i++) {
+					if(this.step == this.enemyName.companies[i]) {
+						this.button.style.display = 'none'
+						this.money = this.money - priceList[this.step] * 0.8
+						this.enemyName.money = this.enemyName.money + priceList[this.step] * 0.6
+						this.wallet.innerHTML = this.money
+						this.enemyName.wallet.innerHTML = this.enemyName.money
+					}
+				}
+			}
+			checkBuy () {
+				for(let i = 0; i <= 5; i++) {
+					if(this.step == checkFunction(i)) {
+						this.button.style.display = 'none'
+						break
+					} else for(let k = 0; k <= this.companies.length; k++) {
+						if(this.companies[k] == this.step) {
+							this.button.style.display = 'none'
+							break
+						} else {
+							this.button.style.display = 'block'
+						}
+					}
+				}
+			}
+			buyCompanies () {
+				let self = this
+				this.button.onclick = function () {
+					boxes[self.step].style.background = self.color
+					self.money = self.money - priceList[self.step]
+					self.wallet.innerHTML = self.money 
+					self.companies.push(self.step)
+					self.button.style.display = 'none'
+					self.purchComp.innerHTML = self.purchComp.innerHTML + ' ' + companyList[self.step - 1]
+				}
+			}
+			credit () {
+				if (this.money <= 0) {
+					if(confirm('Хотите взять кредит?') & this.creditNumber > 0){
+						alert('Вы взяли кредит.')
+						this.money += 1000
+						this.wallet.innerHTML = this.money
+						this.creditNumber--
+					} else {
+						this.button.style.display = 'none'
+						this.enemyName.button.style.display = 'none'
+						alert('Игрок ' + this.enemyID + ' выйграл')
+						checkPlayer = 0
+					}		
+				}
+			}
+		}
+		
+		let player1 = new Player(1);
+		let player2 = new Player(2);
+
+		let boxes = document.querySelectorAll(".boxs");
+		let companyList = ['Розтор','Айгуль', 0, 'Хозмаркет', 'Bershka', 0, 'Zara', 'H&M', 'Adidas', 0, 'Burger King', 'KFC', 'Huawei', "McDonald's", 'AMD', "L'Oreal", 'Nike', 'Intel', 'NVidia', 0, 'Mercedes-Benz', 'Twitter', 'Netflix', 'Microsoft', 'Toyota', 'Epic Games', 'Ubisoft', 'Valve', 'Blizzard', 0, 'Louis Vuitton', 'Chanel', 'Samsung', 'Gucci', 'Coca-Cola Company', 'Amazon', 'Apple', 'Google', 'SpaceX']
+		let checkList = [0,3,6,10,20,30]
+		let moneyCycle = [1250, 1000, 800, 600, 400, 200, 0]
+		let creditNumber = [3,3]
+		let priceList = []
+		for(let i = 0; i < 4; i++) {
+			for(let k = 0; k < 10; k++) {
+				priceList[i*10+k] = 150 *(i+1)
+			}
+		}
+		function checkFunction (arg) {
+			return checkList[arg]
+		}
+	</script>
+</div>
+</body>
+</html>
